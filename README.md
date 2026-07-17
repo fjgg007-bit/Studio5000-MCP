@@ -1,4 +1,4 @@
-# studio5000-mcp
+# logix-mcp
 
 MCP server for **live tag access** to Rockwell Automation Logix5000
 controllers (ControlLogix / CompactLogix) over EtherNet/IP (CIP), using
@@ -69,3 +69,10 @@ Add to `claude_desktop_config.json`:
 ```powershell
 .\.venv\Scripts\python.exe -c "import asyncio, server as s; print(asyncio.run(s.studio5000_discover_plcs()))"
 ```
+
+## Trademark disclaimer
+
+This project is not affiliated with, endorsed by, or sponsored by Rockwell
+Automation, Inc. Studio 5000, RSLogix, ControlLogix, CompactLogix, and
+Logix5000 are trademarks of Rockwell Automation, Inc., used here solely to
+describe compatibility.
